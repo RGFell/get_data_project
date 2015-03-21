@@ -76,9 +76,11 @@ colnames(meanStd_df) <- p4
 #Merge to create the final data set to work on.
 data <- bind_cols(activityName, subject, meanStd_df)
 
+#We use function melt in package reshape2, to rearrenge the data 
 library(reshape2)
-
 dataMelt <- melt(data, id=c("activityName" ,"Subject"))
+
+#Finally we group_by() our variables and get the mean value with summarize(), both from dplyr package
 final_df <- dataMelt %>% group_by(activityName, Subject, variable) %>% summarise(mean(value))
 colnames(final_df) <- c("Activity", "Subject", "Meassure_Variable", "Mean")
 
