@@ -179,7 +179,7 @@ data <- read.table(url(address), header = TRUE)
 View(data)
 ```
 -----------------
-##Acknowledment
+##Acknowledgment
 The experiment asociated with this data was carried out by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 in the Smartlab - Non Linear Complex Systems Laboratory DITEN - Università degli Studi di Genova. Italy
 
