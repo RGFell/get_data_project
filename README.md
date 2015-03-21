@@ -35,7 +35,8 @@ The script should do the following.
 In order to complete the task we created the R script and the different lines of code as follows.
 
 #The code step by step
-Download the files from [http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip]
+
+Download the files 
 ```R
         temp <- tempfile()
 fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
@@ -183,4 +184,4 @@ View(data)
 The experiment asociated with this data was carried out by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 in the Smartlab - Non Linear Complex Systems Laboratory DITEN - Università degli Studi di Genova. Italy
 
-To our CTA's of the course speccially David Hood
+To our CTA's of the course, speccially David Hood
